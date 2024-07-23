@@ -1,0 +1,77 @@
+:root {
+    --background-color: #ffffff;
+    --btn-color: #000031;
+    --btn-txt-color: #ffffff;
+    --project-card-bg: #050022;
+    --text-color: #6b6b6b;
+    --name-color: black;
+    --form-text-color: #888 --footer-text-color: #888;
+}
+
+[data-theme='dark'] {
+    --background-color: #000000;
+    --btn-color: #7272ff;
+    --btn-txt-color: #000000;
+    --project-card-bg: #050022;
+    --text-color: #b2b2b8;
+    --name-color: white;
+    --form-text-color: #b2b2b8;
+    --footer-text-color: #b2b2b8;
+}
+
+body {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+h3,
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2,
+h3 {
+    font-size: 20px;
+}
+
+h1 {
+    color: var(--name-color);
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.sectionTitle {
+    margin-bottom: 30px;
+}
+
+.hover {
+    cursor: pointer;
+}
