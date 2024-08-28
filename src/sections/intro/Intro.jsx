@@ -8,7 +8,7 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import githubLight from "../../assets/github-light.svg";
 import handshakeLight from "../../assets/handshake-light.png"
 import styles from "./IntroStyles.module.css";
-import resume from "../../assets/Evan Resume Software.pdf"
+import resume from "../../assets/Resume.pdf"
 import { useTheme } from "../../common/ThemeContext";
 
 function Intro() {
